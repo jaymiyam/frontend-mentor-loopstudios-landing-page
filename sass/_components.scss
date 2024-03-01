@@ -1,0 +1,16 @@
+.btn {
+  font-family: inherit;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: $color-white;
+  border: none;
+  border: 1px solid $color-dark-gray;
+  padding: 1rem 2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: black;
+  color: white;
+}

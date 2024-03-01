@@ -1,0 +1,39 @@
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
+$color-dark-gray: hsl(0, 0%, 55%);
+$color-very-dark-gray: hsl(0, 0%, 41%);
+
+$font-primary: 'Josefin Sans', sans-serif;
+$font-secondary: 'Alata', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: $font-primary;
+}
+
+.mb-medium {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+[data-mobile-only] {
+  display: none;
+}
