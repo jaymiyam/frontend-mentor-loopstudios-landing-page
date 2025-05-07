@@ -6,11 +6,11 @@ navToggle.addEventListener('click', () => {
 
   if (currentVisibility === 'false') {
     navEl.setAttribute('data-visibility', 'true');
-    navToggle.style.backgroundImage = 'url("../images/icon-hamburger.svg")';
+    navToggle.style.backgroundImage = 'url("images/icon-close.svg")';
   }
 
   if (currentVisibility === 'true') {
     navEl.setAttribute('data-visibility', 'false');
-    navToggle.style.backgroundImage = 'url("../images/icon-close.svg")';
+    navToggle.style.backgroundImage = 'url("images/icon-hamburger.svg")';
   }
 });
